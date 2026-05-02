@@ -1,0 +1,47 @@
+# Best Practices for Lightroom Classic Catalog Management
+
+## Overview
+
+This guide outlines long-term best practices for maintaining a stable, scalable photo management system in Adobe Lightroom Classic.
+
+The goal is to minimize catalog fragmentation, prevent data loss, and simplify external drive workflows.
+
+---
+
+## 1. Use One Master Catalog
+
+Maintain a single primary catalog whenever possible.
+
+### Benefits:
+- Centralized edits and metadata
+- Easier backup strategy
+- Reduced risk of duplicate workflows
+
+Avoid splitting catalogs by:
+- Year
+- Device
+- Short-term projects (unless necessary)
+
+---
+
+## 2. Standardize External Drive Naming
+
+Use consistent, descriptive names:
+
+### Recommended:
+- `LIGHTROOM_MASTER`
+- `PHOTO_ARCHIVE`
+- `RAW_STORAGE`
+
+### Avoid:
+- “Untitled”
+- “External Drive”
+- Random OS-generated names
+
+Consistent naming prevents broken file paths.
+
+---
+
+## 3. Keep a Predictable Folder Structure
+
+Example structure:
